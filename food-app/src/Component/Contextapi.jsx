@@ -5,7 +5,7 @@ export const StoreContext = createContext(null)
 
 const StoreContextProvider = (props) => {
     const [cartitem, setCartItem] = useState({});
-    const url = "http://localhost:4000";
+    const url = "https://restaurant-website-t2i4.onrender.com";
     const [token, setToken] = useState("");
     const [food_list, setFoodList] = useState([]);
 
